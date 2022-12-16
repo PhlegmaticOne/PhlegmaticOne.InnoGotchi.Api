@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="PhlegmaticOne.UnitOfWork" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PhlegmaticOne.InnoGotchi.Shared">
+      <HintPath>bin\Release\net6.0\PhlegmaticOne.InnoGotchi.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
