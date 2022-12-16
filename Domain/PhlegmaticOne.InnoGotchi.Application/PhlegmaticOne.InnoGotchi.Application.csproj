@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\NoAvatar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\NoAvatar.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="PhlegmaticOne.OperationResults.Mediatr" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastucture\PhlegmaticOne.JwtTokensGeneration\PhlegmaticOne.JwtTokensGeneration.csproj" />
+    <ProjectReference Include="..\..\Infrastucture\PhlegmaticOne.PasswordHasher\PhlegmaticOne.PasswordHasher.csproj" />
+    <ProjectReference Include="..\PhlegmaticOne.InnoGotchi.Data.EntityFramework\PhlegmaticOne.InnoGotchi.Data.EntityFramework.csproj" />
+    <ProjectReference Include="..\PhlegmaticOne.InnoGotchi.Domain\PhlegmaticOne.InnoGotchi.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PhlegmaticOne.InnoGotchi.Shared">
+      <HintPath>..\PhlegmaticOne.InnoGotchi.Domain\bin\Release\net6.0\PhlegmaticOne.InnoGotchi.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

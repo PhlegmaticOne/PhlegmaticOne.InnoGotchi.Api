@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{EF1D95B8-B15D-4520-98F9-247E72755E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0C32D1FD-7154-42D9-87B3-808FADA02D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D9A96C74-9632-4607-80C0-DE97DCB4D47F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Api", "Api\PhlegmaticOne.InnoGotchi.Api\PhlegmaticOne.InnoGotchi.Api.csproj", "{050F496F-85F8-47D5-8BBE-0465E534DE07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Data.EntityFramework", "Domain\PhlegmaticOne.InnoGotchi.Data.EntityFramework\PhlegmaticOne.InnoGotchi.Data.EntityFramework.csproj", "{8C3640CF-CA55-46C6-9A29-C28EE51CF528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Domain", "Domain\PhlegmaticOne.InnoGotchi.Domain\PhlegmaticOne.InnoGotchi.Domain.csproj", "{EC71A287-92BB-4C80-9F60-4A79494E333F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.HostedServices", "Infrastucture\PhlegmaticOne.HostedServices\PhlegmaticOne.HostedServices.csproj", "{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.JwtTokensGeneration", "Infrastucture\PhlegmaticOne.JwtTokensGeneration\PhlegmaticOne.JwtTokensGeneration.csproj", "{F1DD7478-7AD3-40F0-893C-584B22844C8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.PasswordHasher", "Infrastucture\PhlegmaticOne.PasswordHasher\PhlegmaticOne.PasswordHasher.csproj", "{7D456932-7ABD-489A-A0B1-7CE9C572BD1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Application", "Domain\PhlegmaticOne.InnoGotchi.Application\PhlegmaticOne.InnoGotchi.Application.csproj", "{C8331F54-30C9-4345-8C20-B439576E5047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C63E214F-D0FE-4258-874E-98E9CA040A2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Application.Tests", "Tests\PhlegmaticOne.InnoGotchi.Application.Tests\PhlegmaticOne.InnoGotchi.Application.Tests.csproj", "{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{050F496F-85F8-47D5-8BBE-0465E534DE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050F496F-85F8-47D5-8BBE-0465E534DE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050F496F-85F8-47D5-8BBE-0465E534DE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050F496F-85F8-47D5-8BBE-0465E534DE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3640CF-CA55-46C6-9A29-C28EE51CF528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3640CF-CA55-46C6-9A29-C28EE51CF528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3640CF-CA55-46C6-9A29-C28EE51CF528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3640CF-CA55-46C6-9A29-C28EE51CF528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC71A287-92BB-4C80-9F60-4A79494E333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC71A287-92BB-4C80-9F60-4A79494E333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC71A287-92BB-4C80-9F60-4A79494E333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC71A287-92BB-4C80-9F60-4A79494E333F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DD7478-7AD3-40F0-893C-584B22844C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DD7478-7AD3-40F0-893C-584B22844C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DD7478-7AD3-40F0-893C-584B22844C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DD7478-7AD3-40F0-893C-584B22844C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8331F54-30C9-4345-8C20-B439576E5047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8331F54-30C9-4345-8C20-B439576E5047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8331F54-30C9-4345-8C20-B439576E5047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8331F54-30C9-4345-8C20-B439576E5047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{050F496F-85F8-47D5-8BBE-0465E534DE07} = {EF1D95B8-B15D-4520-98F9-247E72755E9E}
+		{8C3640CF-CA55-46C6-9A29-C28EE51CF528} = {0C32D1FD-7154-42D9-87B3-808FADA02D83}
+		{EC71A287-92BB-4C80-9F60-4A79494E333F} = {0C32D1FD-7154-42D9-87B3-808FADA02D83}
+		{0F2C042A-FA5D-479B-A8EB-7188A73BF5AB} = {D9A96C74-9632-4607-80C0-DE97DCB4D47F}
+		{F1DD7478-7AD3-40F0-893C-584B22844C8E} = {D9A96C74-9632-4607-80C0-DE97DCB4D47F}
+		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D} = {D9A96C74-9632-4607-80C0-DE97DCB4D47F}
+		{C8331F54-30C9-4345-8C20-B439576E5047} = {0C32D1FD-7154-42D9-87B3-808FADA02D83}
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF} = {C63E214F-D0FE-4258-874E-98E9CA040A2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B61BBE9-14DD-4777-9772-0C6A6974B624}
+	EndGlobalSection
+EndGlobal
