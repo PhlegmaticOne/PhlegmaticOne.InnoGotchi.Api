@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.PasswordHashe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Application", "Domain\PhlegmaticOne.InnoGotchi.Application\PhlegmaticOne.InnoGotchi.Application.csproj", "{C8331F54-30C9-4345-8C20-B439576E5047}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C63E214F-D0FE-4258-874E-98E9CA040A2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhlegmaticOne.InnoGotchi.Application.Tests", "Tests\PhlegmaticOne.InnoGotchi.Application.Tests\PhlegmaticOne.InnoGotchi.Application.Tests.csproj", "{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{C8331F54-30C9-4345-8C20-B439576E5047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8331F54-30C9-4345-8C20-B439576E5047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8331F54-30C9-4345-8C20-B439576E5047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,7 @@ Global
 		{F1DD7478-7AD3-40F0-893C-584B22844C8E} = {D9A96C74-9632-4607-80C0-DE97DCB4D47F}
 		{7D456932-7ABD-489A-A0B1-7CE9C572BD1D} = {D9A96C74-9632-4607-80C0-DE97DCB4D47F}
 		{C8331F54-30C9-4345-8C20-B439576E5047} = {0C32D1FD-7154-42D9-87B3-808FADA02D83}
+		{AD3B8818-1A3D-4D60-BBDE-198E7512B9BF} = {C63E214F-D0FE-4258-874E-98E9CA040A2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B61BBE9-14DD-4777-9772-0C6A6974B624}
